@@ -1,0 +1,32 @@
+html, body {
+    margin: 0;
+    padding: 0;
+    height:100%;
+    overflow:hidden;
+  }
+  canvas{
+ display:block   
+  }
+  @font-face {
+    font-family: vollkorn;
+    src: url("assets/Vollkorn-Bold.ttf");
+  }
+  
+  .gameTitle{
+    width:85%;
+    height:160px;
+  }
+.customInput{
+  width:200px;
+  height:30px;
+  border:3px solid white;
+  border: radius 5px;
+  padding:5px;
+  background-color: transparent;
+  font-size: 20px;
+  outline: none;
+  color: white;
+  font-family: vollkorn;
+  text-align: center;
+}
+
